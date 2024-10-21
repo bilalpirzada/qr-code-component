@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    body{
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+   
+
+    .white-card{
+      background-color: white;
+      width: 300px;
+      height: 480px;
+      border-radius: 20px;
+      
+    }
+
+    .blue-card{
+      height: 270px;
+      width: 270px;
+      background-color: rgb(19, 130, 249);
+      border-radius: 10px;
+      margin-left: 15px;
+      margin-top: 15px;
+      display: inline-block;
+      
+    }
+
+    .title-text{
+      font-family: outfit;
+      font-size: 18px;
+      font-weight: 700;
+      text-align:center;
+      width: 230px;
+      margin-top: 30px;
+      margin-left: 35px;
+    }
+
+    .subtitle-text{
+      font-family: outfit;
+      color: gray;
+      font-size: 14px;
+      text-align: center;
+      width: 230px;
+      margin-left: 35px;
+      margin-top: 25px;
+    }
+
+    .qr-img{
+      width: 270px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+<div class="card-container">
+  <div class="white-card">
+
+    <div class="blue-card">
+      <img src="./images/image-qr-code.png" class="qr-img">
+    </div>
+    <div class="title-text">
+      Improve your front-end skills by building projects
+    </div>
+    
+    <div class="subtitle-text">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+  </div>
+</div>
+</body>
+</html>
